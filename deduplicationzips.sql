@@ -1,6 +1,6 @@
 Select
-x.MDP_CustomerKey, 
-x.MDP_CompanyKey,
+x._CustomerKey, 
+x._CompanyKey,
 x.CustomerFirstName, 
 x.CustomerLastName, 
 x.Email, 
@@ -13,8 +13,8 @@ x.Zip,
 x.RowNum
 From (
     Select 
-    sm.MDP_CustomerKey, 
-    sm.MDP_CompanyKey,
+    sm._CustomerKey, 
+    sm._CompanyKey,
     cm.CustomerFirstName, 
     cm.CustomerLastName, 
     cm.Email, 
